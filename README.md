@@ -37,9 +37,9 @@ Welcome to **Music World**, a modernized, high-performance web application desig
 │   ├── 📄 about.jsp       # Modern About Us page & Feedback submission
 │   ├── 📄 search.jsp      # Search bar & Asynchronous search engine JSPs
 │   ├── 📄 login.jsp       # Admin Login Form
+│   ├── 📄 schema.sql      # Starter database SQL Import Schema
 │   └── (150+ songs)       # Directly downloadable media files
 ├── 📄 .gitignore          # Repository size exclusions
-├── 📄 New Project...sql   # Starter database SQL Import Schema
 └── 📄 README.md           # You are here!
 ```
 
@@ -61,7 +61,7 @@ The project utilizes a private database folder to isolate configurations and pre
    CREATE DATABASE jayvik123;
    CREATE DATABASE jayvik12;
    ```
-4. Import the starter SQL schema script `New Project 20101126 0153.sql` to initialize tables.
+4. Import the starter SQL schema script `music/schema.sql` to initialize tables.
 
 ### 2. Start the Tomcat Server
 1. Ensure the Java JRE 8 path is correctly set:
