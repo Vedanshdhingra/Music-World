@@ -1,0 +1,41 @@
+# ==========================================
+# GitIgnore - JSP Online Music Portal
+# ==========================================
+
+# --- Local Servers & Application Data ---
+/apache-tomcat-9/
+/mysql_data/
+*.log
+
+# --- Generated Mock Media Assets (Audio & Art) ---
+# Exclude the 150+ generated dummy songs and album artwork files
+/music/*.mp3
+/music/*.jpg
+
+# --- Java & Web Development Compilations ---
+**/*.class
+**/work/
+**/temp/
+**/target/
+.metadata/
+
+# --- IDEs & System Settings ---
+# Eclipse
+.settings/
+.classpath
+.project
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
