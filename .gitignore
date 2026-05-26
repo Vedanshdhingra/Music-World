@@ -4,8 +4,16 @@
 
 # --- Local Servers & Application Data ---
 /apache-tomcat-9/
-/mysql_data/
+mysql_data/
 *.log
+
+# --- Database Storage & Backups ---
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.sql.gz
+*.sql.zip
 
 # --- Generated Mock Media Assets (Audio & Art) ---
 # Exclude the 150+ generated dummy songs and album artwork files
